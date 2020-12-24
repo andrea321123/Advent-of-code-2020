@@ -117,4 +117,7 @@ def update():
     
     return new_black_tiles
 
+for i in range(1, 101):
+    black_tiles = update()
+
 print("Answer: " + str(len(black_tiles)))
